@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.frame{
+    padding:2.3em 1em;
+}
+
+.content-body{
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+}
+
+.tribute-header{
+    padding: 1em 0 .3em 0;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tribute-intro{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #afa8a8;
+    text-align: center;
+    padding-bottom: .7em;
+}
+
+.tribute-img{
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+}
+
+figure{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.normans-pic{
+    width: 100%;
+}
+
+.dr-norman{
+    margin-top: .4em;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #7e7272;
+}
+
+.tribute-timeline-header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1.4em;
+}
+
+.tribute-journey{
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 75%;
+}
+
+.tribute-journey ul li{
+    font-size: 1.4em;
+    margin-bottom: .9em;
+    line-height: 1.4em;
+    font-weight: 500;
+    list-style-type:square;
+}
+
+.year{
+    font-weight: 700;
+}
+
+.quote{
+    width: 80%;
+    margin: 1.2em auto 1em auto;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-style: italic;
+    color: #312e2e;
+}
+
+.tribute-end{
+    padding-bottom: 1.5em;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.tribute-end > a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+@media only screen and (min-width: 800px){
+
+    figure{
+        padding: 3em 0;
+    }
+
+    .dr-norman{
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .tribute-timeline-header{
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+
+    .tribute-journey{
+        width: 70%;
+    }
+
+    .tribute-journey ul li{
+        font-size: 1.6em;
+    }
+
+    .quote{
+        font-size: 1.6em;
+        width: 70%;
+    }
+
+    .tribute-end{
+        font-size: 1.6em;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    .tribute-header{
+        font-size: 4em;
+        padding: 1.5em 0 .3em 0;
+    }
+
+    .tribute-intro{
+        font-size: 1.9em;
+    }
+
+    .tribute-img{
+        height: auto;
+    }
+
+    figure{
+        width: 70%;
+        height: fit-content;
+    }
+
+    .dr-norman{
+        font-size: 1.8em;
+    }
+
+    .normans-pic{
+        height: 850px;
+        width: 100%;
+        object-fit: fill;
+        object-position: center;
+    }
+
+    .tribute-timeline-header{
+        padding: 2em 0 1.2em 0;
+        font-size: 2.2em;
+    }
+
+    .tribute-journey{
+        width: 40%;
+    }
+
+    .tribute-journey ul li{
+        font-size: 1.8em;
+        line-height: 1.4em;
+    }
+
+    .quote{
+        padding-top: 2em;
+        width: 45%;
+        font-size: 1.8em;
+    }
+
+    .tribute-end{
+        font-size: 1.8em;
+    }
+}
